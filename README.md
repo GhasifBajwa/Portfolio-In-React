@@ -1,2 +1,14 @@
-# Portfolio-In-React
-Portfolio-In-React refers to a personal or professional website built using the React JavaScript library. It is a digital showcase of an individual's skills, experiences, and projects.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+<!-- All Commands for Basic setup -->
+<!-- npm create bite@latest
+npm i
+npm i react-router-dom
+npm run dev -->
