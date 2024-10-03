@@ -57,7 +57,31 @@ h1 span {
 }
 
 .centersection {
-  margin-left: 420px;
+  margin-left: 480px;
+}
+
+.about{
+  margin-left: 60px;
+}
+
+.experience{
+  margin-left: 60px;
+}
+
+.specialties{
+  margin-left: 60px;
+}
+
+.skills{
+  margin-left: 60px;
+}
+
+.pricing{
+  margin-left: 60px;
+}
+
+.contact{
+  margin-left: 60px;
 }
 
 .Border {

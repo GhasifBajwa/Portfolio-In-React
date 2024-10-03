@@ -5,7 +5,7 @@ function About() {
     <div>
       {/* About */}
       <div
-        className="container-fluid d-flex flex-column flex-md-row"
+        className="container-fluid d-flex flex-column flex-md-row mt-5"
         style={{ height: "100vh" }}
       >
         <div className="col-md-4"></div>
