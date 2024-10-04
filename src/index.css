@@ -564,7 +564,6 @@ li {
     width: 400px;
   }
 }
-
 @media screen and (width: 768px) {
 
   .img-fluid {
@@ -651,7 +650,6 @@ li {
     width: 250px;
   }
 }
-
 @media screen and (width: 1024px) {
 
   .img-fluid {
@@ -741,7 +739,7 @@ li {
     width: 250px;
   }
 }
-@media screen and (width: 1440px) {
+@media screen and (max-width: 1440px) {
 
   .img-fluid {
     width: 170px;
@@ -756,7 +754,7 @@ li {
 
   .centersection {
     /* margin-top: 700px; */
-    margin-left: 420px !important;
+    margin-left: 390px !important;
     padding: 0% !important;
   }
 
@@ -772,21 +770,25 @@ li {
 
   .about {
     margin-top: 720px;
+    margin-left: -30px !important;
     padding: 0% !important;
   }
 
   .experience {
     margin-top: 800px;
+    margin-left: -30px !important;
     padding: 0% !important;
   }
 
   .specialties {
     margin-top: 950px;
+    margin-left: -30px !important;
     padding: 0% !important;
   }
 
   .skills {
     margin-top: 1050px;
+    margin-left: -30px !important;
     padding: 0% !important;
   }
 
@@ -800,7 +802,8 @@ li {
   }
 
   .pricing {
-    margin-top: 1200px;
+    margin-top: 300px;
+    margin-left: -30px !important;
     padding: 0% !important;
   }
 
@@ -809,7 +812,8 @@ li {
   }
 
   .contact {
-    margin-top: 1200px;
+    margin-top: 400px;
+    margin-left: -30px !important;
     padding: 0% !important;
   }
 
