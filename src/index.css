@@ -57,10 +57,10 @@ h1 span {
 }
 
 .centersection {
-  margin-left: 480px;
+  margin-left: 420px;
 }
 
-.about{
+/* .about{
   margin-left: 60px;
 }
 
@@ -82,7 +82,7 @@ h1 span {
 
 .contact{
   margin-left: 60px;
-}
+} */
 
 .Border {
   border: 1px solid var(--white);
