@@ -565,7 +565,7 @@ li {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (width: 768px) {
 
   .img-fluid {
     width: 170px;
@@ -584,7 +584,7 @@ li {
   }
 
   .centersection {
-    margin-top: 800px;
+    margin-top: 700px;
     margin-left: -630px !important;
     padding: 0% !important;
   }
@@ -632,7 +632,7 @@ li {
   }
 
   .pricing {
-    margin-top: 1950px;
+    margin-top: 1500px;
     margin-left: -230px !important;
     padding: 0% !important;
   }
@@ -642,7 +642,7 @@ li {
   }
 
   .contact {
-    margin-top: 2225px;
+    margin-top: 1750px;
     margin-left: -230px !important;
     padding: 0% !important;
   }
@@ -652,7 +652,7 @@ li {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (width: 1024px) {
 
   .img-fluid {
     width: 170px;
@@ -741,7 +741,7 @@ li {
     width: 250px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (width: 1440px) {
 
   .img-fluid {
     width: 170px;
