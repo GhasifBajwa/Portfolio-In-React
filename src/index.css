@@ -169,6 +169,7 @@ p {
 
 .pricing-card {
   background-color: var(--mud);
+  height: 700px;
   border-radius: 12px;
   border: 2px solid var(--info);
   /* Light green border */
@@ -366,7 +367,160 @@ li {
   }
 
   .experience {
+    margin-top: 600px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .specialties {
+    margin-top: 850px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .skills {
+    margin-top: 1350px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .portfolio {
+    margin-top: 400px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+    margin-bottom: 500px;
+  }
+
+  .pricing {
+    margin-top: 1800px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .pricing-card {
+    height: 770px;
+  }
+
+  .contact {
+    margin-top: 2900px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+}
+
+@media screen and (width: 375px) {
+
+  .img-fluid {
+    width: 150px;
+    height: 150px;
+  }
+
+  .left-section {
+    position: relative;
+  }
+
+  .centersection {
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .circle {
+    margin-left: -150px;
+  }
+
+  .projects {
+    padding: 0% !important;
+    margin-top: 20px;
+    margin-bottom: 200px;
+  }
+
+  .about {
+    margin-top: 400px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .experience {
     margin-top: 550px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .specialties {
+    margin-top: 750px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .skills {
+    margin-top: 1075px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .portfolio {
+    margin-top: 375px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+    margin-bottom: 500px;
+  }
+
+  .pricing {
+    margin-top: 1525px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .pricing-card {
+    height: 700px;
+  }
+
+  .contact {
+    margin-top: 2450px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .custom-input {
+    width: 350px;
+  }
+}
+
+@media screen and (width: 425px) {
+
+  .img-fluid {
+    width: 150px;
+    height: 150px;
+  }
+
+  .left-section {
+    position: relative;
+  }
+
+  .centersection {
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .circle {
+    margin-top: 50px;
+    margin-left: -150px;
+  }
+
+  .projects {
+    padding: 0% !important;
+    margin-top: 20px;
+    margin-bottom: 200px;
+  }
+
+  .about {
+    margin-top: 400px;
+    margin-left: 0px !important;
+    padding: 0% !important;
+  }
+
+  .experience {
+    margin-top: 500px;
     margin-left: 0px !important;
     padding: 0% !important;
   }
@@ -378,28 +532,36 @@ li {
   }
 
   .skills {
-    margin-top: 1100px;
+    margin-top: 975px;
     margin-left: 0px !important;
     padding: 0% !important;
   }
 
   .portfolio {
-    margin-top: 300px;
+    margin-top: 375px;
     margin-left: 0px !important;
     padding: 0% !important;
     margin-bottom: 500px;
   }
 
   .pricing {
-    margin-top: 1400px;
+    margin-top: 1425px;
     margin-left: 0px !important;
     padding: 0% !important;
+  }
+
+  .pricing-card {
+    height: 700px;
   }
 
   .contact {
     margin-top: 2350px;
     margin-left: 0px !important;
     padding: 0% !important;
+  }
+
+  .custom-input {
+    width: 400px;
   }
 }
 
@@ -422,7 +584,7 @@ li {
   }
 
   .centersection {
-    margin-top: 800px;
+    margin-top: 700px;
     margin-left: -630px !important;
     padding: 0% !important;
   }
@@ -439,25 +601,25 @@ li {
   }
 
   .experience {
-    margin-top: 750px;
+    margin-top: 800px;
     margin-left: -230px !important;
     padding: 0% !important;
   }
 
   .specialties {
-    margin-top: 900px;
-    margin-left: -230px !important;
-    padding: 0% !important;
-  }
-
-  .skills {
     margin-top: 1000px;
     margin-left: -230px !important;
     padding: 0% !important;
   }
 
+  .skills {
+    margin-top: 1175px;
+    margin-left: -230px !important;
+    padding: 0% !important;
+  }
+
   .portfolio {
-    margin-top: 550px;
+    margin-top: 625px;
     padding: 0% !important;
   }
 
@@ -470,18 +632,188 @@ li {
   }
 
   .pricing {
-    margin-top: 1700px;
+    margin-top: 1950px;
     margin-left: -230px !important;
     padding: 0% !important;
   }
 
+  .pricing-card {
+    height: 1100px;
+  }
+
   .contact {
-    margin-top: 1850px;
+    margin-top: 2225px;
     margin-left: -230px !important;
     padding: 0% !important;
   }
 
   .custom-input {
     width: 250px;
+  }
+}
+
+@media screen and (width: 1024px) {
+
+  .img-fluid {
+    width: 170px;
+    height: 170px;
+    margin-top: 15px;
+  }
+
+  .left-section {
+    width: 270px;
+    position: fixed;
+  }
+
+  .centersection {
+    /* margin-top: 700px; */
+    margin-left: 275px !important;
+    padding: 0% !important;
+  }
+
+  .circle {
+    margin-left: 200px;
+  }
+
+  .projects {
+    margin-top: -500px !important;
+    margin-bottom: 250px;
+    width: 800px;
+    padding: 0% !important;
+  }
+
+  .about {
+    margin-top: 720px;
+    width: 600px;
+    margin-left: -55px !important;
+    padding: 0% !important;
+  }
+
+  .experience {
+    margin-top: 800px;
+    width: 600px;
+    margin-left: -55px !important;
+    padding: 0% !important;
+  }
+
+  .specialties {
+    margin-top: 1000px;
+    width: 600px;
+    margin-left: -55px !important;
+    padding: 0% !important;
+  }
+
+  .skills {
+    margin-top: 1175px;
+    width: 600px;
+    margin-left: -55px !important;
+    padding: 0% !important;
+  }
+
+  .portfolio {
+    margin-top: 275px;
+    padding: 0% !important;
+  }
+
+  .badge {
+    width: max-content;
+  }
+
+  .pricing {
+    margin-top: 1450px;
+    width: 600px;
+    margin-left: -55px !important;
+    padding: 0% !important;
+  }
+
+  .pricing-card {
+    height: 850px;
+  }
+
+  .contact {
+    margin-top: 1600px;
+    width: 600px;
+    margin-left: -55px !important;
+    padding: 0% !important;
+  }
+
+  .custom-input {
+    width: 250px;
+  }
+}
+@media screen and (width: 1440px) {
+
+  .img-fluid {
+    width: 170px;
+    height: 170px;
+    margin-top: 15px;
+  }
+
+  .left-section {
+    width: 370px;
+    position: fixed;
+  }
+
+  .centersection {
+    /* margin-top: 700px; */
+    margin-left: 420px !important;
+    padding: 0% !important;
+  }
+
+  .circle {
+    margin-left: 400px;
+  }
+
+  .projects {
+    margin-top: -500px !important;
+    margin-bottom: 250px;
+    padding: 0% !important;
+  }
+
+  .about {
+    margin-top: 720px;
+    padding: 0% !important;
+  }
+
+  .experience {
+    margin-top: 800px;
+    padding: 0% !important;
+  }
+
+  .specialties {
+    margin-top: 950px;
+    padding: 0% !important;
+  }
+
+  .skills {
+    margin-top: 1050px;
+    padding: 0% !important;
+  }
+
+  .portfolio {
+    margin-top: 250px;
+    padding: 0% !important;
+  }
+
+  .badge {
+    width: max-content;
+  }
+
+  .pricing {
+    margin-top: 1200px;
+    padding: 0% !important;
+  }
+
+  .pricing-card {
+    height: 700px;
+  }
+
+  .contact {
+    margin-top: 1200px;
+    padding: 0% !important;
+  }
+
+  .custom-input {
+    width: 400px;
   }
 }
