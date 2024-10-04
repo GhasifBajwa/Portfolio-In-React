@@ -28,7 +28,7 @@ function Header() {
               <a href="https://github.com/GhasifBajwa" className="btn btn-outline-light mx-2">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://wa.me/qr/7Z46N3RZNGPLO1" className="btn btn-outline-light mx-2">
+              <a href="https://wa.me/message/XWK3MNSWLFMVN1" className="btn btn-outline-light mx-2">
                 <i className="fab fa-whatsapp"></i>
               </a>
               <a href="https://www.instagram.com/ghasifbajwa/" className="btn btn-outline-light mx-2">
