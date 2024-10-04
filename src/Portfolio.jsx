@@ -24,7 +24,7 @@ function Portfolio() {
                 <div className="card project-card mb-4">
                   <div className="image-container">
                     <img
-                      src="/mariab.png"
+                      src="/autogallery.png"
                       className="card-img-top project-image"
                       alt="Moonex WordPress Theme"
                     />
@@ -47,7 +47,7 @@ function Portfolio() {
                       </span>
                     </div>
                     <h5 className="card-title text-center text-white-50">
-                      Maria B.
+                      Auto Gallery
                     </h5>
                   </div>
                 </div>
@@ -57,7 +57,7 @@ function Portfolio() {
                 <div className="card project-card mb-4">
                   <div className="image-container">
                     <img
-                      src="/text.png"
+                      src="/portfolio.png"
                       className="card-img-top project-image"
                       alt="Taskly Dashboard"
                     />
@@ -71,7 +71,7 @@ function Portfolio() {
                         CSS
                       </span>
                       <span className="col-md-4 badge bg-light text-dark">
-                        Tailwind
+                        Boostrap
                       </span>
                     </div>
                     <div className="d-flex justify-content-start mb-3">
@@ -83,7 +83,7 @@ function Portfolio() {
                       </span>
                     </div>
                     <h5 className="card-title text-center text-white-50">
-                      TextUtils
+                      My-Portfolio
                     </h5>
                   </div>
                 </div>

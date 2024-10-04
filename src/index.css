@@ -206,18 +206,19 @@ li {
 }
 
 .custom-input {
-  background-color: var(--mud);
-  color: var(--white);
+  background-color: var(--black);
   border: none;
   border-bottom: 1px solid var(--info);
-  border-radius: 8px;
   padding: 12px;
-  transition: border-color 0.3s ease-in-out;
+  border-radius: 0px !important;
   width: 300px;
 }
 
+.custom-input::placeholder{
+  color: var(--white);
+}
+
 .custom-input:focus {
-  border-color: var(--info);
   box-shadow: none;
   outline: none;
 }
@@ -407,7 +408,6 @@ li {
     padding: 0% !important;
   }
 }
-
 @media screen and (min-width: 375px) {
 
   .img-fluid {
@@ -485,7 +485,6 @@ li {
     width: 350px;
   }
 }
-
 @media screen and (min-width: 425px) {
 
   .img-fluid {
@@ -739,7 +738,7 @@ li {
     width: 250px;
   }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (width: 1440px) {
 
   .img-fluid {
     width: 170px;
@@ -802,7 +801,89 @@ li {
   }
 
   .pricing {
+    margin-top: 700px !important;
+    margin-left: -30px !important;
+    padding: 0% !important;
+  }
+
+  .pricing-card {
+    height: 700px;
+  }
+
+  .contact {
     margin-top: 700px;
+    margin-left: -30px !important;
+    padding: 0% !important;
+  }
+
+  .custom-input {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1326px) {
+
+  .img-fluid {
+    width: 170px;
+    height: 170px;
+    margin-top: 15px;
+  }
+
+  .left-section {
+    width: 370px;
+    position: fixed;
+  }
+
+  .centersection {
+    /* margin-top: 700px; */
+    margin-left: 390px !important;
+    padding: 0% !important;
+  }
+
+  .circle {
+    margin-left: 400px;
+  }
+
+  .projects {
+    margin-top: -500px !important;
+    margin-bottom: 250px;
+    padding: 0% !important;
+  }
+
+  .about {
+    margin-top: 720px;
+    margin-left: -30px !important;
+    padding: 0% !important;
+  }
+
+  .experience {
+    margin-top: 800px;
+    margin-left: -30px !important;
+    padding: 0% !important;
+  }
+
+  .specialties {
+    margin-top: 950px;
+    margin-left: -30px !important;
+    padding: 0% !important;
+  }
+
+  .skills {
+    margin-top: 1050px;
+    margin-left: -30px !important;
+    padding: 0% !important;
+  }
+
+  .portfolio {
+    margin-top: 250px;
+    padding: 0% !important;
+  }
+
+  .badge {
+    width: max-content;
+  }
+
+  .pricing {
+    margin-top: 500px;
     margin-left: -30px !important;
     padding: 0% !important;
   }

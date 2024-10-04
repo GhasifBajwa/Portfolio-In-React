@@ -34,7 +34,7 @@ function Contact() {
 
     return (
         <div>
-            <div className="container-fluid d-flex flex-column flex-md-row mt-5" style={{ height: "100vh" }}>
+            <div className="container-fluid d-flex flex-column flex-md-row " style={{ height: "100vh" }}>
                 <div className="col-md-4"></div>
                 <div className="col-md-8 col-sm-12 contact d-flex flex-column align-items-start justify-content-center p-5">
                     <div className="Border d-flex align-items-center mb-4">
@@ -47,9 +47,6 @@ function Contact() {
                     <form className="mt-4" onSubmit={sendEmail}>
                         <div className="row">
                             <div className="col-md-6 mb-3">
-                                <label htmlFor="fullName" className="form-label text-white">
-                                    FULL NAME *
-                                </label>
                                 <input
                                     type="text"
                                     className="form-control custom-input"
@@ -61,9 +58,6 @@ function Contact() {
                                 />
                             </div>
                             <div className="col-md-6 mb-3">
-                                <label htmlFor="email" className="form-label text-white">
-                                    EMAIL *
-                                </label>
                                 <input
                                     type="email"
                                     className="form-control custom-input"
@@ -75,12 +69,8 @@ function Contact() {
                                 />
                             </div>
                         </div>
-
                         <div className="row">
                             <div className="col-md-6 mb-3">
-                                <label htmlFor="phone" className="form-label text-white">
-                                    PHONE (OPTIONAL)
-                                </label>
                                 <input
                                     type="text"
                                     className="form-control custom-input"
@@ -91,9 +81,6 @@ function Contact() {
                                 />
                             </div>
                             <div className="col-md-6 mb-3">
-                                <label htmlFor="budget" className="form-label text-white">
-                                    YOUR BUDGET (OPTIONAL)
-                                </label>
                                 <input
                                     type="text"
                                     className="form-control custom-input"
@@ -104,12 +91,8 @@ function Contact() {
                                 />
                             </div>
                         </div>
-
                         <div className="row">
                             <div className="col-md-12 mb-3">
-                                <label htmlFor="message" className="form-label text-white">
-                                    MESSAGE
-                                </label>
                                 <textarea
                                     className="form-control custom-input"
                                     id="message"
@@ -119,8 +102,7 @@ function Contact() {
                                 />
                             </div>
                         </div>
-
-                        <div className="d-grid mt-3">
+                        <div className="d-grid mt-3 mb-5">
                             <button type="submit" className="btn btn-info btn-lg">
                                 SEND MESSAGE
                             </button>
