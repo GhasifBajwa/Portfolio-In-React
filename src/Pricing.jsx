@@ -25,7 +25,7 @@ function Pricing() {
                                     <p className="text-secondary text-center">
                                         Have design ready to build? <br /> or small budget
                                     </p>
-                                    <h2 className="text-info text-center">$49 / hours</h2>
+                                    <h2 className="text-info text-center">$20 / hours</h2>
                                     <hr className="my-3 text-secondary" />
                                     <ul className="text-white">
                                         <li>
@@ -58,7 +58,7 @@ function Pricing() {
                                     <p className="text-secondary text-center">
                                         Not have any design? <br /> Leave it for me
                                     </p>
-                                    <h2 className="text-info text-center">$99 / hours</h2>
+                                    <h2 className="text-info text-center">$50 / hours</h2>
                                     <hr className="my-3 text-secondary" />
                                     <ul className="text-white">
                                         <li>Don't need wireframe or anything</li>

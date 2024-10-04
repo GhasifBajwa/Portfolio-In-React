@@ -103,7 +103,7 @@ function Contact() {
                             </div>
                         </div>
                         <div className="d-grid mt-3 mb-5">
-                            <button type="submit" className="btn btn-info btn-lg">
+                            <button type="submit" className="btn btn-info btn-lg submit-button">
                                 SEND MESSAGE
                             </button>
                         </div>

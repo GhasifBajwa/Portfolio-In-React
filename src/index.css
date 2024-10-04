@@ -214,7 +214,7 @@ li {
   width: 300px;
 }
 
-.custom-input::placeholder{
+.custom-input::placeholder {
   color: var(--white);
 }
 
@@ -335,6 +335,10 @@ li {
   font-weight: bold;
 }
 
+.submit-button{
+  width: 200px !important;
+}
+
 @media screen and (min-width: 320px) {
 
   .img-fluid {
@@ -408,6 +412,7 @@ li {
     padding: 0% !important;
   }
 }
+
 @media screen and (min-width: 375px) {
 
   .img-fluid {
@@ -485,6 +490,7 @@ li {
     width: 350px;
   }
 }
+
 @media screen and (min-width: 425px) {
 
   .img-fluid {
@@ -563,6 +569,7 @@ li {
     width: 400px;
   }
 }
+
 @media screen and (width: 768px) {
 
   .img-fluid {
@@ -649,6 +656,7 @@ li {
     width: 250px;
   }
 }
+
 @media screen and (width: 1024px) {
 
   .img-fluid {
@@ -738,6 +746,7 @@ li {
     width: 250px;
   }
 }
+
 @media screen and (width: 1440px) {
 
   .img-fluid {
@@ -820,6 +829,7 @@ li {
     width: 400px;
   }
 }
+
 @media screen and (min-width: 1326px) {
 
   .img-fluid {
